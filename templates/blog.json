@@ -6,6 +6,8 @@
         "title": {
           "type": "title",
           "settings": {
+            "show_date": true,
+            "show_author": false
           }
         },
         "summary": {
@@ -25,10 +27,84 @@
         "link"
       ],
       "settings": {
+        "show_image": true
+      }
+    },
+    "16258005918d7f4062": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "16258005918d7f4062-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "16258005918d7f4062-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "16258005918d7f4062-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16258005918d7f4062-0",
+        "16258005918d7f4062-1",
+        "16258005918d7f4062-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1625800598bf67648b": {
+      "type": "image-banner",
+      "blocks": {
+        "1625800598bf67648b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "1625800598bf67648b-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1625800598bf67648b-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1625800598bf67648b-0",
+        "1625800598bf67648b-1",
+        "1625800598bf67648b-2"
+      ],
+      "settings": {
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16258005918d7f4062",
+    "1625800598bf67648b"
   ]
 }

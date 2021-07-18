@@ -18,6 +18,7 @@ class CollectionFiltersForm extends HTMLElement {
     event.preventDefault();
     const formData = new FormData(event.target.closest('form'));
     const searchParams = new URLSearchParams(formData).toString();
+    console.log('search', searchParams);
     this.renderPage(searchParams, event);
   }
 
